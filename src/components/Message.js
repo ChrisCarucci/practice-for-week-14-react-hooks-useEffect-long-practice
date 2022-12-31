@@ -5,7 +5,7 @@ function Message({ sizeClass, featherCount }) {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    console.log('PMessage sizeClass', sizeClass);
+    console.log('Message sizeClass', sizeClass);
   }, [sizeClass]);
 
   useEffect(() => {
